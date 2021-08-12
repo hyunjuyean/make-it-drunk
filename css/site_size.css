@@ -1,0 +1,21 @@
+/*큰 화면 설정*/
+#site_size {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: gray;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  top: 0;
+}
+
+/*조건에 따른 화면 설정*/
+@media screen and (max-width: 645px) {
+  #site_size {
+    display: none;
+  }
+}
