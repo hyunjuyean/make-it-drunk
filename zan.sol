@@ -1,3 +1,5 @@
+// OpenZeppelin의 공식 ERC20 컨트랙트와 함께 써야함
+// https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
